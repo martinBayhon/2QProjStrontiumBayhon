@@ -1,0 +1,464 @@
+body {
+	background-color: #000080;
+    font-family:Futura;
+	color: white;
+	overflow: auto;
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+/*#container {
+	position: relative; 
+	width: 1920px;
+	height: 300ox;
+	margin: 0px;
+}
+*/
+#top {
+	position: absolute;
+	float: top;
+	top: -150px;
+	z-index: 1;
+	width: 1865px;
+	height: 400px;
+	border-radius: 40%;
+	text-align: center;
+	background: #AC703D;
+}
+#top2 {
+	position: absolute;
+	float: top;
+	top: -120px;
+	z-index: 0;
+	width: 1865px;
+	height: 400px;
+	border-radius: 40%;
+	text-align: center;
+	background: #793F0D;
+}
+#top > h1 {
+	position: relative;
+	bottom: 45px;
+	z-index: 3;
+	font-size: 100px;
+	text-align: center;
+}
+#top > h2 {
+	position: relative;
+	bottom: -95px;
+	z-index: 3;
+	font-size: 65px;
+	text-align: center;
+}
+#top > h5 {
+	position: relative;
+	bottom: -40px;
+	z-index: 3;
+	font-size: 35px;
+	text-align: center;
+}
+#content {
+	position: absolute;
+	float: top;
+	z-index: 0;
+	top: 450px;	
+	width: 1865;
+	height: 1200px;
+}
+#intro {
+	position: absolute;
+	float: right;
+	left: 950px;
+	z-index: 1;
+	width: 860px;
+	height: 1250px;
+	border: 20px outset green;
+	border-radius: 10%;
+	text-align: center;
+	background: #793F0D;
+}
+#intro > h1 {
+	position: relative;
+	float: bottom;
+	top: -50px;
+	font-size: 130px;
+	text-shadow: 4px 4px green;
+}
+#intro > h2 {
+	position: relative;
+	float: bottom;
+	padding: 20px;
+	top: -100px;
+	font-size: 40px;
+	text-shadow: 4px 4px green;
+}
+#pacquiao {
+	position: absolute;
+	float: top;
+	left: 20px;
+	z-index: 1;
+	width: 860px;
+	height: 1250px;
+	border: 20px outset rgb(0,122,255);
+	border-radius: 10%;
+	text-align: center;
+	background: #793F0D;
+}
+#pacquiao > img {
+	float: top;
+	border-radius: 10%;
+}
+#pacquiao > a {
+	position: relative;
+	top: 80px;
+}
+#pacquiao > h1 {
+	position: relative;
+	float: bottom;
+	top: -50px;
+	font-size: 150px;
+	text-shadow: 4px 4px rgb(0,122,255);
+}
+
+#isko {
+	position: absolute;
+	float: right;
+	top: 2700px;
+	left: 950px;
+	z-index: 1;
+	width: 860px;
+	height: 1250px;
+	border: 20px outset blue;
+	border-radius: 10%;
+	text-align: center;
+	background: #793F0D;
+}
+#isko > img {
+	position: relative;
+	float: top;
+	top: 80px;
+	width: 800px;
+	height: auto;
+}
+#isko > h1 {
+	position: relative;
+	float: bottom;
+	top: 32px;
+	font-size: 150px;
+	text-shadow: 4px 4px blue;
+}
+#marcos {
+	position: absolute;
+	float: top;
+	top: 1350px;
+	left: 20px;
+	z-index: 1;
+	width: 860px;
+	height: 1250px;
+	border: 20px outset rgb(209, 0, 0);
+	border-radius: 10%;
+	text-align: center;
+	background: #793F0D;
+}
+#marcos > img {
+	position: relative;
+	float: top;
+	top: 80px;
+	width: 800px;
+	height: auto;
+}
+#marcos > h1 {
+	position: relative;
+	float: bottom;
+	top: 80px;
+	font-size: 150px;
+	text-shadow: 4px 4px rgb(209, 0, 0);
+}
+#leni {
+	position: absolute;
+	float: right;
+	left: 950px;
+	top: 1350px;
+	z-index: 1;
+	width: 860px;
+	height: 1250px;
+	border: 20px outset rgb(250,0,166);
+	border-radius: 10%;
+	text-align: center;
+	background: #793F0D;
+}
+#leni > img {
+	position: relative;
+	float: top;
+	top: 80px;
+	width: 800px;
+	height: auto;
+}
+#leni > h1 {
+	position: relative;
+	float: bottom;
+	top: 175px;
+	font-size: 150px;
+	text-shadow: 4px 4px rgb(250,0,166);
+}
+#leody {
+	position: absolute;
+	float: left;
+	top: 1330px;
+	left: -950px;
+	z-index: 1;
+	width: 860px;
+	height: 1250px;
+	border: 20px outset rgb(135, 0, 0);
+	border-radius: 10%;
+	text-align: center;
+	background: #793F0D;
+}
+#leody > img {
+	position: relative;
+	float: top;
+	top: 80px;
+	width: 800px;
+	height: auto;
+}
+#leody > h1 {
+	position: relative;
+	float: bottom;
+	top: 175px;
+	font-size: 150px;
+	text-shadow: 4px 4px rgb(135, 0, 0);
+}
+#ping {
+	position: absolute;
+	float: left;
+	top: 1330px;
+	left: -950px;
+	z-index: 1;
+	width: 860px;
+	height: 1250px;
+	border: 20px outset rgb(96, 0, 167);
+	border-radius: 10%;
+	text-align: center;
+	background: #793F0D;
+}
+#ping > img {
+	position: relative;
+	float: top;
+	top: 80px;
+	width: 500px;
+	height: auto;
+}
+#ping > h1 {
+	position: relative;
+	float: bottom;
+	top: 30px;
+	font-size: 150px;
+	text-shadow: 4px 4px rgb(96, 0, 167);
+}
+#bato {
+	position: absolute;
+	float: left;
+	top: 2675px;
+	left: -950px;
+	z-index: 1;
+	width: 860px;
+	height: 1250px;
+	border: 20px outset rgb(0,122,255);
+	border-radius: 10%;
+	text-align: center;
+	background: #793F0D;
+}
+#bato > img {
+	position: relative;
+	float: top;
+	top: 80px;
+	width: 500px;
+	height: auto;
+}
+#bato > h1 {
+	position: relative;
+	float: bottom;
+	top: 100px;
+	font-size: 150px;
+	text-shadow: 4px 4px rgb(0,122,255);
+}
+#ernie {
+	position: absolute;
+	float: right;
+	top: 2675px;
+	right: -20px;
+	z-index: 1;
+	width: 860px;
+	height: 1250px;
+	border: 20px outset gray;
+	border-radius: 10%;
+	text-align: center;
+	background: #793F0D;
+}
+#ernie > img {
+	position: relative;
+	float: top;
+	top: 80px;
+	width: 500px;
+	height: auto;
+}
+#ernie > h1 {
+	position: relative;
+	float: bottom;
+	top: 100px;
+	font-size: 150px;
+	text-shadow: 4px 4px gray;
+}
+
+aside {
+	
+}
+
+aside > img {
+	position: relative;
+	float: top;
+	top: 80px;
+	width: 750px;
+	height: auto;
+}
+
+aside > h1 {
+	position: relative;
+	float: bottom;
+	top: -50px;
+	font-size: 150px;
+	text-shadow: rgb(0,122,255);
+}
+
+#pacquiaodesc {
+	position: absolute;
+	float: top;
+	z-index: 0;
+	top: 25px;	
+	left: 1000px;
+	width: 840px;
+	height: 500px;
+}
+#pacquiaodesc > h1 {
+	position: relative;
+	float: left;
+	left: -15px;
+	top: -70px;
+	font-size: 85px;
+	text-shadow: rgb(255, 0, 60);
+}
+#pacquiaodesc > ul {
+	position: relative;
+	float: left;
+	top: -150px;
+	left: 20px;
+	font-size: 50px;
+	text-shadow: 4px 4px rgb(189, 0, 0);
+}
+#pacquiaocomp {
+	position: absolute;
+	float: right;
+	left: 950px;
+	top: 1350px;
+	z-index: 1;
+	width: 860px;
+	height: 1200px;
+	border: 20px inset rgb(0,122,255);
+	border-radius: 10%;
+	text-align: center;
+	background: #793F0D;
+}
+#pacquiaocomp > img {
+	position: relative;
+	float: top;
+	top: 50px;
+	width: 800px;
+	height: auto;
+}
+#pacquiaocomp > h1 {
+	position: relative;
+	float: bottom;
+	top: 25px;
+	font-size: 100px;
+	text-shadow: 4px 4px rgb(33, 0, 223);
+}
+#pacquiaostances {
+	position: absolute;
+	float: left;
+	z-index: 1;
+	top: 1350px;	
+	left: 20px;
+	width: 840px;
+	height: 500px;
+}
+#pacquiaostances > h1 {
+	position: absolute;
+	float: left;
+	top: -70px;
+	font-size: 85px;
+	text-shadow: 4px 4px rgb(255, 0, 120);
+}
+#pacquiaostances > h2 {
+	position: relative;
+	float: left;
+	top: 75px;
+	font-size: 35px;
+	text-shadow: 4px 4px rgb(255, 0, 120);
+}
+footer {
+	position: relative;
+	float: bottom;
+	bottom : -5500px;
+	z-index: 2;
+	width: 1865px;
+	height: 75px;
+	text-align: center;
+	background: #000080;
+	color: white;
+	font-size: 40px;
+}
+
+#video {
+	float: bottom;
+	bottom: -2500px;
+	padding: 700px;
+	position: absolute;
+}
+
+#starboard > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #AC703D;
+	position: fixed;
+	bottom: -20px;
+	width: 100%;
+	z-index: 3;
+	border: 20px solid #793F0D;
+}
+
+#starboard > li {
+	float: left;
+}	
+
+#starboard > li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 5px 60px;
+	text-decoration: none;
+}
+
+#starboard > li a:hover {
+  background-color:#d1bc91;
+}
+
+#starboard > li h1 {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 85px;
+}
